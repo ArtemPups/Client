@@ -1,0 +1,293 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: greenyellow
+}
+
+
+
+h1 {
+    padding: 10px;
+    text-align: left;
+    color: green;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform:uppercase;
+}
+
+
+header a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 40px;
+    border-radius: 10px;
+    display: block;
+}
+
+
+header a:visited{
+    color: rgb(184, 130, 255);
+}
+
+
+
+header a:hover{
+    color: grey;
+}
+
+
+nav{
+    border-top: 2px dashed darkgreen;
+    border-bottom: 2px dashed darkgreen;
+}
+    
+.all-p{
+    display:block;
+    color: green;
+    font-size: 20px;
+    padding: 8px 5px 8px 15px;
+    background-color: rgb(134, 223, 0)
+}
+
+
+.all-p:hover{
+    color:rgb(123, 0, 255);
+    border: 3px dashed #3a7999;
+	background: rgba(0,0,0,0);
+}
+
+
+.laptop{
+    padding: 30px 30px 30px 30px;
+    width: 235px;
+    background-color: rgb(188, 236, 188);
+    border-radius: 25% 10%;
+    margin: 10px 10px 10px 10px;
+}
+
+
+.laptop:hover{
+    width: 250px;
+    height: 200px;
+}
+
+
+
+.laptopA{
+    padding: 30px 30px 30px 30px;
+    width: 235px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25% 10%;
+    margin: 10px 10px 10px 10px;
+}
+
+
+.laptopA:hover{
+    width: 250px;
+    height: 200px;
+}
+
+
+
+.laptopB{
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    border-radius: 25% 10%;
+    margin: 10px 10px 10px 10px;
+}
+
+
+.laptopB:hover{
+    width: 250px;
+    height: 200px;
+}
+
+
+#images{
+    display: flex;
+    height: 240px;
+}
+
+
+
+
+.tech{
+    width:235px;
+    padding: 30px 30px 30px 30px;
+    background-color: white;
+    border-radius: 70% 30% 50% 70%;
+}
+
+
+.tech:hover{
+    width: 250px;
+    height: 200px;
+}
+
+
+.techA{
+    width:235px;
+    padding: 30px 30px 30px 30px;
+    background-color: white;
+    border-radius: 20% 30% 50% 70%;
+}
+
+.techA:hover{
+    width: 250px;
+    height: 200px;
+}
+
+
+.techB{
+    width:235px;
+    padding: 30px 30px 30px 30px;
+    background-color: white;
+    border-radius: 70% 30% 50% 40%;
+}
+
+.techB:hover{
+    width: 250px;
+    height: 200px;
+}
+
+
+.tel{
+    width: 235px;
+    padding: 30px 0 0 30px;
+    background-color: white;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+
+.tel:hover{
+    width: 300px;
+}
+
+.telA{
+    width: 235px;
+    padding: 30px 0 0 30px;
+    background-color: white;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+
+.telA:hover{
+    width: 300px;
+}
+
+
+.telB{
+    width: 210px;
+    padding: 30px 0 0 30px;
+    background-color: white;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.telB:hover{
+    width: 300px;
+}
+
+
+footer{
+    background-color: white;
+    padding: 10px;
+}
+
+
+footer p{
+    font-size: 25px;
+}
+
+
+.decor{
+    font-size: 25px;
+    padding-left: 30px;
+    background-color: white;
+}
+
+
+.rek{
+    background-color: orange;
+    width: 191px;
+    padding: 5px;
+    border: 2px dotted #666;
+}
+
+
+.rek:hover{
+    color: gray;
+    background-color: gold;
+}
+
+.reklam{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+}
+
+
+.face{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+}
+
+.fix {
+    position: fixed;
+    top: 5px;
+    right: 10px;
+}
+
+
+.pro-nas{
+    padding: 0 0 0 15px;
+    font-size: 23px;
+}
+
+
+.comm{
+    padding: 0 0 0 15px;
+}
+
+
+.comp{
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    border-radius: 25% 10%;
+    margin: 10px 10px 10px 10px;
+    width: 195px;
+}
+
+.comp:hover{
+    width:230px;
+}
+
+
+.compA{
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    border-radius: 25% 10%;
+    margin: 10px 10px 10px 10px;
+    width: 275px;
+}
+
+.compA:hover{
+    width:325px;
+}
+
+.compB{
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    border-radius: 25% 10%;
+    margin: 10px 10px 10px 10px;
+    width: 275px;
+}
+
+.compB:hover{
+    width:300px;
+}
+
+
+.call{
+    bottom:25px;
+    right:25px;
+    position:fixed;
+}
