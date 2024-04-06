@@ -129,22 +129,42 @@ footer{
     color: rgb(202, 202, 202);
 }
 
+
 .tdsv{
     box-shadow: 10px 7px 7px #231e23;
 }
+
 
 .ffv{
     box-shadow: 10px 7px 7px #231e23;
 }
 
+
 .tmv{
     box-shadow: 10px 7px 7px #231e23;
 }
+
 
 .bp2v{
     box-shadow: 10px 7px 7px #231e23;
 }
 
+
 .fv{
+    box-shadow: 10px 7px 7px #231e23;
+}
+
+.wot{
+    border-top: 8px solid rgb(44, 44, 44);
+    display: inline-block;
+    margin: 300px;
+    height: 330px;
+    width: 640px;
+    font-size: 20px;
+    padding-top: 20px;  
+}
+
+
+.wotv{
     box-shadow: 10px 7px 7px #231e23;
 }
