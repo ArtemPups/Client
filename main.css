@@ -1,5 +1,5 @@
 body{
-    font-family: "Gill Sans", sans-serif;
+    font-family: fantasy;
 }
 
 
@@ -22,33 +22,109 @@ header p{
     padding: 10px 10px 10px 10px;
     font-size: 18px;
 }
+
+
+header p:hover{
+    color: rgb(202, 202, 202);
+}
+
+
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+
 main h1{
     font-size: 50px;
     text-align: center;
 }
 
-.igri:first-child{
+
+main p {
+    font-size: 20px;
+}
+
+
+.sayt{
     height: 275px;
     width: 640px;
 }
+
 
 .tds{
     border-top: 8px solid rgb(44, 44, 44);
     display: inline-block;
-    margin: 50px 0px 50px 0px;
-    height: 275px;
+    margin: 75px;
+    height: 330px;
     width: 640px;
+    font-size: 20px;
+    padding-top: 20px;
 }
+
 
 .ff{
     border-top: 8px solid rgb(44, 44, 44);
     display: inline-block;
-    margin: 200px;
+    margin: 300px;
     height: 275px;
     width: 640px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+.tm{
+    border-top: 8px solid rgb(44, 44, 44);
+    display: inline-block;
+    height: 275px;
+    width: 640px;
+    font-size: 20px;
+    margin: 50px;
+    padding-top: 20px;
+} 
+
+
+.bp2{
+    border-top: 8px solid rgb(44, 44, 44);
+    display: inline-block;
+    height: 275px;
+    width: 640px;
+    font-size: 20px;
+    margin: 290px;
+    padding-top: 20px;
+}
+
+
+.f{
+    border-top: 8px solid rgb(44, 44, 44);
+    display: inline-block;
+    height: 275px;
+    width: 640px;
+    font-size: 20px;
+    margin: 75px;
+    padding-top: 20px;
+}
+
+
+footer{
+    background-color:#231e23;
+    font-size: 20px;
+    margin: 275px 0px 0px 0px;
+    padding-top: 20px;
+    color:white;
+    display: flex;
+}
+
+
+.ftext{
+    padding:25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ftext:hover{
+    color: rgb(202, 202, 202);
 }
