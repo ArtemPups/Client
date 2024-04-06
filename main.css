@@ -128,3 +128,23 @@ footer{
 .ftext:hover{
     color: rgb(202, 202, 202);
 }
+
+.tdsv{
+    box-shadow: 10px 7px 7px #231e23;
+}
+
+.ffv{
+    box-shadow: 10px 7px 7px #231e23;
+}
+
+.tmv{
+    box-shadow: 10px 7px 7px #231e23;
+}
+
+.bp2v{
+    box-shadow: 10px 7px 7px #231e23;
+}
+
+.fv{
+    box-shadow: 10px 7px 7px #231e23;
+}
