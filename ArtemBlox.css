@@ -7,45 +7,45 @@ header{
     background-color:rgb(220, 220, 220) ;
 }
 
-#h1{
+.h1{
     font: small-caps bold 24px/1 sans-serif;
     font-weight: 1000;
     padding: 5px 0 0 5px;
 }
 
-#dis{
+.dis{
     padding:10px 10px 10px 10px;
 }
 
-#dis:hover{
+.dis:hover{
     border-bottom: 1px rgb(39, 39, 39) solid;
 }
 
-#mar{
+.mar{
     padding:10px 10px 10px 10px;
 }
 
-#mar:hover{
+.mar:hover{
     border-bottom: 1px rgb(39, 39, 39) solid;
 }
 
-#cr{
+.cr{
     padding:10px 10px 10px 10px;
 }
 
-#cr:hover{
+.cr:hover{
     border-bottom: 1px rgb(39, 39, 39) solid;
 }
 
-#rob{
+.rob{
     padding:10px 10px 10px 10px;
 }
 
-#rob:hover{
+.rob:hover{
     border-bottom: 1px rgb(39, 39, 39) solid;
 }
 
-#lnick{
+.lnick{
     background-color:rgb(179, 179, 179);
     border-radius:100px;
     width:35px;
@@ -53,61 +53,56 @@ header{
     margin:10px;
 }
 
-#nick{
+.nick{
     padding:10px 10px 10px 1px;
 }
 
-#nick:hover{
+.nick:hover{
     border-bottom: 1px rgb(39, 39, 39) solid;
 }
 
-
-header span{
-    font:caption;
-    text-align:center;
-}
-
-#headerdiv1{
+.hmenu{
     display:flex;
     justify-content:space-between;
     border-bottom: 1px rgb(180, 180, 180) solid;
+    list-style:none;
 }
 
-#search{
+.search{
     border-radius:15px;
     height:35px;
     width:350px;
     border:2px solid rgb(102, 102, 102);
 }
 
-#bell{
+.bell{
     width:25px;
     height:25px;
     padding:10px 10px 10px 10px;
 }
 
-#bell:hover{
+.bell:hover{
     background-color:rgb(210, 210, 210);
     border-radius: 10px;
 }
 
-#robux{
+.robux{
     width:26px;
     height:28px;
     padding:7px 10px 10px 10px;
 }
 
-#robux:hover{
+.robux:hover{
     background-color:rgb(210, 210, 210);
     border-radius: 10px;
 }
 
-#settings:hover{
+.settings:hover{
     background-color:rgb(210, 210, 210);
     border-radius: 10px;
 }
 
-#settings{
+.settings{
     width:30px;
     height:30px;
     padding: 5px 0 0 0;
@@ -117,134 +112,56 @@ header span{
 
 
 
-#maindiv1{
-    padding:10px;
+.maindiv1{
+    padding:6px;
     background-color:rgb(220, 220, 220);
     width:130px;
     height:1000px;
     color:rgb(120, 120, 120);
     position: fixed;
+    list-style:none;
 }
 
 
-#mnick{
+.mnick{
     border-bottom:1px rgb(180, 180, 180) solid;
     font-size:17px;
     font-weight: 600;
     background-color:rgb(220, 220, 220) ;
 }
 
-#home{
+.home{
     padding:6px;
     font-size:17px;
     font-weight: 600;
 }
 
-#home:hover{
+.home:hover{
     color:rgb(85, 85, 85);
 }
 
-#pro{
-    padding:6px;
+.menu{
+    list-style:none;
+}
+
+.menu li {
     font-size:17px;
     font-weight: 600;
+    padding:6px 6px 6px 6px;
 }
-
-#pro:hover{
+.menu li a:hover {
     color:rgb(85, 85, 85);
+    border-bottom:2px rgb(85, 85, 85) dashed;
 }
 
-#mas{
-    padding:6px;
-    font-size:17px;
-    font-weight: 600;
+main li a{
+    color:rgb(120, 120, 120);
+    text-decoration:none;
 }
 
-#mas:hover{
-    color:rgb(85, 85, 85);
-}
 
-#fr{
-    padding:6px;
-    font-size:17px;
-    font-weight: 600;
-}
 
-#fr:hover{
-    color:rgb(85, 85, 85);
-}
-
-#ava{
-    padding:6px;
-    font-size:17px;
-    font-weight: 600;
-}
-
-#ava:hover{
-    color:rgb(85, 85, 85);
-}
-
-#inv{
-    padding:6px;
-    font-size:17px;
-    font-weight: 600;
-}
-
-#inv:hover{
-    color:rgb(85, 85, 85);
-}
-
-#tr{
-    padding:6px;
-    font-size:17px;
-    font-weight: 600;
-}
-
-#tr:hover{
-    color:rgb(85, 85, 85);
-}
-
-#gr{
-    padding:6px;
-    font-size:17px;
-    font-weight: 600;
-}
-
-#gr:hover{
-    color:rgb(85, 85, 85);
-}
-
-#bl{
-    padding:6px;
-    font-size:17px;
-    font-weight: 600;
-}
-
-#bl:hover{
-    color:rgb(85, 85, 85);
-}
-
-#os{
-    padding:6px;
-    font-size:17px;
-    font-weight: 600;
-}
-
-#os:hover{
-    color:rgb(85, 85, 85);
-}
-
-#gc{
-    padding:6px;
-    font-size:17px;
-    font-weight: 600;
-}
-
-#gc:hover{
-    color:rgb(85, 85, 85);
-}
-
-#gp{
+.gp{
     padding:6px;
     font-size:17px;
     font-weight: 800;
@@ -253,20 +170,20 @@ header span{
     border-radius:7px;
 }
 
-#maindiv2{
+.maindiv2{
     text-align:center;
     padding-top:20px;
     padding-right:750px;
 }
 
-#mainh1{
+.mainh1{
     color:rgb(39, 39, 39);
     font-size: 28px;
     font-weight: 999;
     font-family: Helvetica , Helvetica, Arial, Lucida, sans-serif;
 }
 
-#mains{
+.mains{
     color:rgb(39, 39, 39);
     font-family: Helvetica , Helvetica, Arial, Lucida, sans-serif;
     font-size:19px;
@@ -274,20 +191,20 @@ header span{
     font-weight: 600;
 }
 
-#friendot{
+.friendot{
     width: 110px;
     height: 110px;
     opacity: 0.3;
-    padding-left: 60px;
+    padding-left: 0px;
 }
 
-#maindiv3{
+.maindiv3{
     text-align:center;
     padding-top:50px;
     padding-right:780px;
 }
 
-#con{
+.con{
     color:rgb(39, 39, 39);
     font-weight: 600;
     font-size:19px;
@@ -295,7 +212,11 @@ header span{
     padding-left:37px;
 }
 
-#cong{
+.mainul1{
+   list-style: none;
+}
+
+.cong{
     width:5px;
     background-color:rgb(179, 179, 179);
     padding:75px;
@@ -304,7 +225,7 @@ header span{
     border-radius:10px;
 }
 
-#rfy{
+.rfy{
     color:rgb(39, 39, 39);
     font-weight: 600;
     font-size:19px;
@@ -313,7 +234,7 @@ header span{
     padding-top:50px;
 }
 
-#rfyg{
+.rfyg{
     width:5px;
     background-color:rgb(179, 179, 179);
     padding:75px;
@@ -322,7 +243,7 @@ header span{
     border-radius:10px;
 }
 
-#fv{
+.fv{
     color:rgb(39, 39, 39);
     font-weight: 600;
     font-size:19px;
@@ -331,7 +252,7 @@ header span{
     padding-top:50px;
 }
 
-#fvg{
+.fvg{
     width:5px;
     background-color:rgb(179, 179, 179);
     padding:75px;
